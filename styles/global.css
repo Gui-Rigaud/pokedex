@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #F0f0f0;
+}
+
+.conteudo{
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.conteudo h1{
+    margin: 0;
+}
+
+.detail-redirect {
+    text-decoration: none;
+    text-transform: none;
+}
+
+@media screen and (min-width: 992px) {
+    .conteudo {
+        max-width: 992px;
+        max-height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
